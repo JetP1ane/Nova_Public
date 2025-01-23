@@ -14,6 +14,7 @@ const config: Config = {
       },
       animation: {
         'gradient-x': 'gradient-x 10s ease infinite',
+        'blink': 'blink 1s step-end infinite',
       },
       keyframes: {
         'gradient-x': {
