@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+export const dynamic = 'force-static'
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white">

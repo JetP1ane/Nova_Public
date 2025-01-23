@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import { Orbitron } from "next/font/google";
 import "./globals.css";
 
-const orbitron = Orbitron({ subsets: ["latin"] });
+const orbitron = Orbitron({ 
+  subsets: ["latin"],
+  display: 'swap',
+  weight: '700'
+});
 
 export const metadata: Metadata = {
   title: "NOVA",
