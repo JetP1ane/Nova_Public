@@ -70,17 +70,12 @@ Status: Pre-deployment`}
 
             <div className="flex items-center gap-2">
               <span className="text-[#ffd700]/60">$</span>
-              <span className="animate-blink">█</span>
+              <span className="text-[#ffd700]/90">Coming Soon...</span>
+              <span className="animate-blink text-[#ffd700]">█</span>
             </div>
           </div>
         </div>
         
-        <div className="relative mt-4">
-          <p className="text-2xl tracking-[0.2em] font-light text-[#ffd700]/90 animate-pulse">
-            COMING SOON
-          </p>
-          <div className="absolute -bottom-2 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#ffd700] to-transparent"></div>
-        </div>
       </div>
     </div>
   );
